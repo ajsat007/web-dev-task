@@ -1,0 +1,131 @@
+/* Reset and Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+
+header {
+  background-color: transparent;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.5em;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Main Content Styles */
+
+main {
+  padding: 20px 0;
+}
+
+.section-title {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-4 {
+  flex: 0 0 calc(33.33% - 30px);
+  margin: 15px;
+  max-width: calc(33.33% - 30px);
+}
+
+/* Thumbnail Card Styles */
+
+.thumbnail-card {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.thumbnail-card:hover {
+  transform: translateY(-10px);
+}
+
+.thumbnail-card img {
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.thumbnail-card .card-body {
+  padding: 15px;
+}
+
+.thumbnail-card .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.thumbnail-card .overview {
+  font-size: 0.9em;
+  color: #ccc;
+  height: 60px;
+  overflow: hidden;
+}
+
+/* Call-to-Action Button */
+
+.btn {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #bf0813;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+  color: #888;
+  font-size: 0.9em;
+}
